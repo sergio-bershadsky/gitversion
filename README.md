@@ -2,11 +2,11 @@
 
 ## entrypoint
 
-    docker run -it -v $(pwd):/repository bershadsky/getversion
+    docker run -it -v $(pwd):/repository bershadsky/gitversion
 
 ## Help
 
-    docker run -it -v $(pwd):/repository bershadsky/getversion /h
+    docker run -it -v $(pwd):/repository bershadsky/gitversion /h
 
     GitVersion 4.0.0-beta.13+1425.Branch.master.Sha.0f7e7b3d845cd5ebd39bdb7f5459d34fb84e8b3d
     Use convention to derive a SemVer product version from a GitFlow or GitHub based repository.
@@ -60,5 +60,5 @@
 
 ## Init
 
-    docker run -it -v $(pwd):/repository bershadsky/getversion init
+    docker run -it -v $(pwd):/repository bershadsky/gitversion init
 
